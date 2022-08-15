@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    border: 0;
+    margin: 0;
+   
+}
+ .lower{
+   
+background-color:black; 
+transform: skewY(-3deg);
+
+
+right: 0;
+bottom: 0;
+left: 0;
+
+ }
+ .btn-group button {
+    background-color:white; /* Green background */
+    border: 1px solid black; /* Green border */
+    color:black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: black;
+    color: white;
+  }
+  .word{
+    
+  }
+.middle{
+    padding-top: 150px;
+    padding-left: 2px;
+    padding-right: 40px;
+}
+.lower p{
+color: white;
+background-color: black;
+
+}
+br{
+    color: #F5F5F5;
+}
+.small{
+    display: none;
+}
+.row{
+   
+    right: 250px;
+    left: 100px;
+}
+@media (max-width: 575.98px) { 
+    .goku{
+        display: none;
+    }
+    .middle{
+      
+        display:none;
+        
+      
+       
+    }
+    .small{
+        display: block;
+        padding: 5px;
+    }
+
+}
+#a,#b,#c,#d{
+    padding-right: 80px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+#a{
+    padding-left: 40px;
+}
+
+
+#top{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+#box{
+    padding-top: 100px;
+}
+#a,#b,#c,#d:hover{
+          color: rgb(45, 45, 45);
+}
+#about{
+    padding-top: 200px;
+}
+.navdeep{
+    height: 250px;
+    width: 210px;
+}
+.head{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 60px;
+}
+.pad{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sun{
+    background-color:black ;
+    color: white;
+    
+}
+.padd{
+    padding-left: 10px;
+}
+.imgg{
+    padding: 0;
+}
+.firstrow{
+     border: 10px;
+     border-color: black;
+     padding-left: 10px;
+}
+.hhh{
+    padding-top: 20px;
+}
+.column1{
+    
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#works{
+    padding-top: 200px;
+}
+.as{
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+  .tt{
+    width:500px;
+  }
+.second{
+    padding-top: 100px;
+}
+.pola
+{  
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+#im{
+    background-color:whitesmoke
+    background-blend-mode: lighten;
+   
+}
+#C{
+    padding-top: 200px;
+
+}
+#t1{
+    font-weight: 700;
+}
+a{text-decoration: none;}
+.x{
+    
+    color: black;
+}
+.x:hover{
+    background-color: black;
+    color: white;
+}
