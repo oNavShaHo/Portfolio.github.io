@@ -64,10 +64,11 @@ br{
     right: 250px;
     left: 100px;
 }
+.phone{
+    display: none;
+}
 @media (max-width: 575.98px) { 
-    .goku{
-        display: none;
-    }
+    
     .middle{
       
         display:none;
@@ -75,9 +76,21 @@ br{
       
        
     }
-    .small{
+    .goku{
+        display: none;
+    }
+    .phone{
         display: block;
-        padding: 5px;
+    }
+   .imgg{
+    height: 10px;
+    width: 10px;
+   }
+   .column1{
+    width: 100%;
+   }
+    *{
+        padding: 2px;
     }
 
 }
@@ -130,6 +143,7 @@ br{
 .padd{
     padding-left: 10px;
 }
+
 .imgg{
     padding: 0;
 }
