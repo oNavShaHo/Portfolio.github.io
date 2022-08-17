@@ -88,9 +88,12 @@ br{
    }
    .column1{
     width: 100%;
+   
    }
     *{
         padding: 2px;
+        width:320 px;height:533 px;
+        text-align: center;
     }
 
 }
