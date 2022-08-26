@@ -81,6 +81,8 @@ br{
     }
     .phone{
         display: block;
+        text-align: center;
+        justify-content: center;
     }
    .imgg{
     height: 10px;
@@ -92,9 +94,11 @@ br{
    }
     *{
         padding: 2px;
-        width:320 px;height:533 px;
+        padding-left: 6px;
         text-align: center;
     }
+
+
 
 }
 #a,#b,#c,#d{
@@ -169,13 +173,13 @@ br{
     padding-top: 200px;
 }
 .as{
-    height: 400px;
-    width: 500px;
+    height: 350px;
+    width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 }
   .tt{
-    width:500px;
+    width:400px;
   }
 .second{
     padding-top: 100px;
@@ -207,3 +211,4 @@ a{text-decoration: none;}
     background-color: black;
     color: white;
 }
+
